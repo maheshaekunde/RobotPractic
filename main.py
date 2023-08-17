@@ -7,3 +7,7 @@ class A:
 
 obj=A(10,20)
 obj.sample_a()
+
+class B:
+  def method(self):
+    print("hello world")
