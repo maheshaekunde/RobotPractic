@@ -1,16 +1,9 @@
- # This is a sample Python script.
+class A:
+  def __init__(self,a,b):
+    self.a=a
+    self.b=b
+  def sample_a(self):
+    print("this is methode", self.a+self.b)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('hello World')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+obj=A(10,20)
+obj.sample_a()
